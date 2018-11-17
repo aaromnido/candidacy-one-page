@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="182" viewBox="0 0 180 182">
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="90.033" cy="90.636" r="90.033" fill="#FFFFFF" opacity=".9"/>
+    <g transform="translate(19.342 24.09)">
+      <g fill="#751277" transform="translate(0 71.545)">
+        <text font-family="GothamBold, Gotham Bold" font-size="23.848" font-weight="bold">
+          <tspan x="1.225" y="17">ADELANTE</tspan>
+        </text>
+        <text font-family="GothamMedium, Gotham Medium" font-size="10.599">
+          <tspan x="57.216" y="29.199">POR</tspan>
+        </text>
+        <text font-family="GothamMedium, Gotham Medium" font-size="19.874">
+          <tspan x="31.826" y="45.473">Aragón</tspan>
+        </text>
+      </g>
+      <g transform="translate(17.03)">
+        <path fill="#F5C023" d="M84.3102558,33.387785 L63.595539,33.3878816 C63.639685,33.3877326 63.6838487,33.387658 63.7280297,33.387658 C75.8894189,33.387658 86.7265823,39.0377243 93.7404839,47.8474682 L102.282825,60.9457249 L22.7884015,60.9457249 L62.5356134,0 L84.3102558,33.387785 Z"/>
+        <polygon fill="#D0021B" points="59.86 0 62.774 0 22.788 60.946 19.874 60.946"/>
+        <polygon fill="#D0021B" points="54.03 0 56.945 0 16.959 60.946 14.044 60.946"/>
+        <polygon fill="#F5C023" points="56.945 0 59.86 0 19.874 60.946 16.959 60.946"/>
+        <polygon fill="#F5C023" points="51.115 0 54.03 0 14.044 60.946 11.129 60.946"/>
+        <polygon fill="#D0021B" points="48.465 0 51.38 0 11.394 60.946 8.479 60.946"/>
+        <polygon fill="#F5C023" points="45.551 0 48.465 0 8.479 60.946 5.565 60.946"/>
+        <polygon fill="#D0021B" points="42.901 0 45.816 0 5.83 60.946 2.915 60.946"/>
+        <polygon fill="#F5C023" points="39.986 0 42.901 0 2.915 60.946 0 60.946"/>
+        <path fill="#D0021B" d="M62.7744344,0 L22.7884015,60.9457249 L62.7744344,0 Z"/>
+        <path fill="#AD4BAF" d="M96.5516694,41.4921796 L109.629954,36.3024535 L94.4045835,39.9130047 C89.7605658,36.9523575 86.1275473,36.3024681 86.1189591,36.3024535 L109.629954,36.3024535 L100.980756,46.7026095 C99.2163333,44.3199046 97.7399713,42.5830947 96.5516694,41.4921796 Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

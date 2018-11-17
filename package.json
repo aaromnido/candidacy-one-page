@@ -1,0 +1,12 @@
+{
+  "name": "adelanteporaragon",
+  "vapid": {
+    "site": "c25c97d0-e83c-11e8-a90a-3f4f50f59643"
+  },
+  "scripts": {
+    "start": "vapid start ."
+  },
+  "dependencies": {
+    "vapid-cli": "^0.3.0"
+  }
+}

@@ -1,0 +1,185 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+html, body, h1, h2, h3, h4, h5, h6, p, small, li {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #2A212D; }
+
+a {
+  color: #a64da8;
+  -webkit-transition: all .4s ease-in;
+  -o-transition: all .4s ease-in;
+  transition: all .4s ease-in; }
+  a:hover {
+    color: #612D62;
+    cursor: pointer; }
+
+.hidden {
+  display: none; }
+
+.bg-primary {
+  background: #612D62 !important; }
+
+.section {
+  padding: 6rem 0; }
+
+.section-header {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem; }
+  .section-header h2 {
+    color: #612D62; }
+
+.navbar .nav-link {
+  margin-left: 1rem; }
+
+.section-hero {
+  background-color: #612D62;
+  background-image: url(../images/foto-de-grupo.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  padding: 0; }
+  .section-hero * {
+    color: white; }
+
+.section-hero-cover {
+  padding: 15vh 1rem 10vh 1rem;
+  text-align: center; }
+  .section-hero-cover .logo {
+    margin-bottom: 5rem;
+    opacity: 0; }
+  .section-hero-cover .title {
+    font-size: 4rem;
+    font-weight: 400; }
+    .section-hero-cover .title small {
+      font-size: 1.5rem; }
+    @media (max-width: 992px) {
+      .section-hero-cover .title {
+        font-size: 3rem; } }
+  .section-hero-cover .subtitle {
+    font-size: 1.52rem;
+    font-weight: 400; }
+
+.section-proposal {
+  background: #f7eef7;
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
+.section-candidates .candidate {
+  border-bottom: 1px solid rgba(97, 45, 98, 0.2);
+  padding: 1rem 0 0 0; }
+  .section-candidates .candidate:first-child {
+    border-top: 1px solid rgba(97, 45, 98, 0.2); }
+
+.section-candidates .name {
+  font-size: 1.5rem; }
+
+.section-candidates h5 {
+  color: #612D62;
+  font-weight: 500; }
+
+.section-candidates .state {
+  color: #612D62;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 300; }
+
+.section-candidates .picture {
+  max-height: 263px;
+  overflow: hidden; }
+  .section-candidates .picture img {
+    border: 1px solid rgba(97, 45, 98, 0.2);
+    border-radius: 3px; }
+
+.section-candidates .bio p {
+  font-size: 0.9rem; }
+
+@media (max-width: 992px) {
+  .section-candidates {
+    padding-left: 2rem;
+    padding-right: 2rem; } }
+
+.section-footer {
+  padding: 1rem 1rem; }
+  .section-footer .navbar-nav > * {
+    margin-left: 0.5rem; }
+  @media (max-width: 992px) {
+    .section-footer {
+      padding: 4rem 1rem; }
+      .section-footer small {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem; }
+      .section-footer .navbar-nav {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        .section-footer .navbar-nav > * {
+          margin: 1rem;
+          font-size: 2rem; } }
+
+.candidatura {
+  margin: 4rem 0; }
+  .candidatura hr {
+    margin-top: 4rem; }
+
+.section-video {
+  background: #100111;
+  padding: 2rem 1rem 4rem 1rem;
+  text-align: center; }
+  .section-video video {
+    max-width: 100%;
+    height: auto;
+    max-width: 60%; }
+  .section-video .embed-responsive {
+    max-width: 60%; }
+    @media (max-width: 992px) {
+      .section-video .embed-responsive {
+        max-width: 90%; } }
+
+.accordion {
+  margin-bottom: 1rem; }
+  .accordion .card {
+    border: 1px solid rgba(97, 45, 98, 0.2);
+    border-bottom: 1px transparent; }
+  .accordion .card-body,
+  .accordion .card-header {
+    border-bottom: 1px solid rgba(97, 45, 98, 0.2); }
+  .accordion .card-header {
+    background: #f7eef7;
+    -webkit-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+    cursor: pointer; }
+    .accordion .card-header:hover {
+      background: #efdcef; }
+    .accordion .card-header .btn-link:hover {
+      text-decoration: none; }
+    .accordion .card-header .btn-link:hover h5 {
+      text-decoration: none;
+      color: #a64da8 !important; }
+
+/* Scroll out */
+[data-scroll] {
+  -webkit-transition: all 2s;
+  -o-transition: all 2s;
+  transition: all 2s; }
+
+[data-scroll="in"] {
+  opacity: 1; }
+
+[data-scroll="out"] {
+  opacity: 0; }
